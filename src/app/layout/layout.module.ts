@@ -18,7 +18,6 @@ import { FormsModule } from '@angular/forms';
 import { CommentSectionComponent } from './comment-section/comment-section.component';
 import { PerformanceGraphComponent } from './performance-graph/performance-graph.component';
 import { WatchpartyComponent } from './watchparty/watchparty.component';
-import { EnterWatchpartyComponent } from './enter-watchparty/enter-watchparty.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,6 @@ import { EnterWatchpartyComponent } from './enter-watchparty/enter-watchparty.co
     CommentSectionComponent,
     PerformanceGraphComponent,
     WatchpartyComponent,
-    EnterWatchpartyComponent,
   ],
   imports: [
     CommonModule,
